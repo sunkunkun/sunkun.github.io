@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="网易云音乐修复1sudo gedit /etc/sudoers 修改/etc/sudoers文件，加一行：1YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music YOURNAME为你登录的用户名1sudo gedit /usr/share/applications/netease-cloud-music.desktop 修改Exec=netea">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安装教程">
+<meta property="og:url" content="http://yoursite.com/2018/11/10/安装教程/index.html">
+<meta property="og:site_name" content="生信学习之路">
+<meta property="og:description" content="网易云音乐修复1sudo gedit /etc/sudoers 修改/etc/sudoers文件，加一行：1YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music YOURNAME为你登录的用户名1sudo gedit /usr/share/applications/netease-cloud-music.desktop 修改Exec=netea">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-11-11T01:24:18.268Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="安装教程">
+<meta name="twitter:description" content="网易云音乐修复1sudo gedit /etc/sudoers 修改/etc/sudoers文件，加一行：1YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music YOURNAME为你登录的用户名1sudo gedit /usr/share/applications/netease-cloud-music.desktop 修改Exec=netea">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="生信学习之路" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/11/10/安装教程/">
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>安装教程 | 生信学习之路</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">生信学习之路</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">路漫漫其修远兮，吾将上下而求索</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+
+    
+
+    <a href="/" rel="section">Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+
+    
+
+    <a href="/about/" rel="section">About</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+
+    
+
+    <a href="/tags/" rel="section">Tags</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+
+    
+
+    <a href="/categories/" rel="section">Categories</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+
+    
+
+    <a href="/archives/" rel="section">Archives</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-schedule">
+
+    
+    
+    
+
+    
+
+    <a href="/schedule/" rel="section">Schedule</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-sitemap">
+
+    
+    
+    
+
+    
+
+    <a href="/sitemap.xml" rel="section">Sitemap</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-commonweal">
+
+    
+    
+    
+
+    
+
+    <a href="/404/" rel="section">Commonweal 404</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-catalogue">
+
+    
+    
+    
+
+    
+
+    <a href="/catalogues/" rel="section">catalogue</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/10/安装教程/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="sunkun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="生信学习之路">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">安装教程
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-11-10 18:02:32" itemprop="dateCreated datePublished" datetime="2018-11-10T18:02:32+08:00">2018-11-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-11-11 09:24:18" itemprop="dateModified" datetime="2018-11-11T09:24:18+08:00">2018-11-11</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="网易云音乐修复"><a href="#网易云音乐修复" class="headerlink" title="网易云音乐修复"></a>网易云音乐修复</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /etc/sudoers</span><br></pre></td></tr></table></figure>
+<p>修改/etc/sudoers文件，加一行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music</span><br></pre></td></tr></table></figure></p>
+<p>YOURNAME为你登录的用户名<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /usr/share/applications/netease-cloud-music.desktop</span><br></pre></td></tr></table></figure></p>
+<p>修改Exec=netease-cloud-music %U 为 Exec=sudo netease-cloud-music %U, 这样点击网易云音乐图标就是以管理员权限启动的了，且不用输入密码了。<br>于此同时设置root/admin等没有密码登录</p>
+<h1 id="终端美化"><a href="#终端美化" class="headerlink" title="终端美化"></a>终端美化</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install zsh</span><br><span class="line">sudo apt install git </span><br><span class="line">sh -c &quot;$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</span><br><span class="line">chsh -s /bin/zsh</span><br><span class="line">     echo $SHELL     #查看当前shell</span><br><span class="line">     cat /etc/shells  #查看系统已安装的shell</span><br><span class="line">git clone https://github.com/zsh-users/zsh-autosuggestions /home/.oh-my-zsh/plugins/zsh-autosuggestions</span><br><span class="line">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /home/.oh-my-zsh/plugins/home/.oh-my-zsh/plugins/zsh-syntax-highlighting</span><br><span class="line">sudo -i</span><br><span class="line">cd /home/.oh-my-zsh/plugins</span><br><span class="line">mkdir incr</span><br><span class="line">git clone http://mimosa-pudica.net/src/incr-0.2.zsh /home/.oh-my-zsh/plugins/incr</span><br><span class="line">cat /home/.zshrc</span><br><span class="line">ZSH_THEME=&quot;ys&quot;</span><br><span class="line">ENABLE_CORRECTION=&quot;true&quot;</span><br><span class="line">COMPLETION_WAITING_DOTS=&quot;true&quot;</span><br><span class="line">plugins=( git autojump incr zsh-autosuggestions zsh-syntax-highlighting )</span><br></pre></td></tr></table></figure>
+<h1 id="微信、QQ、百度云盘等的安装"><a href="#微信、QQ、百度云盘等的安装" class="headerlink" title="微信、QQ、百度云盘等的安装"></a>微信、QQ、百度云盘等的安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg --add-architecture i386</span><br><span class="line">    wget -nc https://dl.winehq.org/wine-builds/Release.key</span><br><span class="line">    sudo apt-key add Release.key</span><br><span class="line">    sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/</span><br><span class="line">    sudo apt-get update</span><br><span class="line">git clone https://github.com/wszqkzqk/deepin-wine-ubuntu.git /home</span><br></pre></td></tr></table></figure>
+<p>然后下载相应的.deb包即可<br>安装托盘：安装ToplconPlus的gnome-shell扩展</p>
+<h1 id="桌面美化"><a href="#桌面美化" class="headerlink" title="桌面美化"></a>桌面美化</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install gnome-tweak-tool</span><br><span class="line">sudo apt install docky</span><br><span class="line">sudo apt install gnome-shell-extensions</span><br><span class="line">sudo apt install chrome-gnome-shell</span><br><span class="line">#下载相应的主题、图标、字体放入对应的文件即可（例如下载到/home/file/内）————Gnome-look</span><br><span class="line">cp -r /home/file/themes/ /usr/share/themes</span><br><span class="line">cp -r /home/file/icons/ /usr/share/icons</span><br><span class="line">cp -r /home/file/fonts/ /usr/share/fonts</span><br></pre></td></tr></table></figure>
+<h1 id="Grub2美化"><a href="#Grub2美化" class="headerlink" title="Grub2美化"></a>Grub2美化</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">下载主题包，Gnome Look - GRUB themes</span><br><span class="line">cd /boot/grub </span><br><span class="line">mkdir themes</span><br><span class="line">cp -r /home/file/grub/themes/ /boot/grub/themes/</span><br><span class="line">sudo gedit /etc/default/grub</span><br><span class="line">#修改GRUB_THEME=&quot;/boot/grub/themes/主题包文件夹名称/theme.txt&quot;</span><br><span class="line">sudo update-grub</span><br></pre></td></tr></table></figure>
+<h1 id="字体修复"><a href="#字体修复" class="headerlink" title="字体修复"></a>字体修复</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">下载缺失文字复制到/usr/share/fonts中</span><br><span class="line">sudo mkfontscale</span><br><span class="line">sudo mkfontdir</span><br><span class="line">sudo fc-cache</span><br></pre></td></tr></table></figure>
+<h1 id="python-修复"><a href="#python-修复" class="headerlink" title="python 修复"></a>python 修复</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install python3</span><br><span class="line">sudo update-alternatives --list python</span><br><span class="line">ls /usr/bin/</span><br><span class="line">sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1</span><br><span class="line">sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2</span><br><span class="line">sudo update-alternatives --config python</span><br><span class="line">#或者sudo apt-get remove python(不建议使用)</span><br></pre></td></tr></table></figure>
+<h1 id="部分软件安装"><a href="#部分软件安装" class="headerlink" title="部分软件安装"></a>部分软件安装</h1><p>WPS、Chrome、网易云音乐、Rstudio官网下载即可。</p>
+<p>#spyder安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install spyder</span><br></pre></td></tr></table></figure></p>
+<p>#GIMP安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:otto-kesselgulasch/gimp</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install gimp</span><br></pre></td></tr></table></figure></p>
+<p>#其他安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install shutter</span><br><span class="line">sudo apt-get install gnome-mpv</span><br><span class="line">suso apt-get install axel</span><br><span class="line">sudo apt-get install apt-fast</span><br></pre></td></tr></table></figure></p>
+<p>#sublime-text安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:webupd8team/sublime-text-3 </span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install sublime-text</span><br></pre></td></tr></table></figure></p>
+<p>#typora的安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE</span><br><span class="line">sudo add-apt-repository &apos;deb https://typora.io/linux ./&apos; </span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install typora</span><br></pre></td></tr></table></figure></p>
+<h1 id="ubuntu-18-04-命令行与图形界面的切换"><a href="#ubuntu-18-04-命令行与图形界面的切换" class="headerlink" title="ubuntu 18.04 命令行与图形界面的切换"></a>ubuntu 18.04 命令行与图形界面的切换</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /etc/default/grub</span><br></pre></td></tr></table></figure>
+<p>找到 GRUB_CMDLINE_LINUX_DEFAULT,在此行末尾输入 nomodeset<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo update-grub</span><br></pre></td></tr></table></figure></p>
+<h1 id="18-04-键盘背光打开"><a href="#18-04-键盘背光打开" class="headerlink" title="18.04 键盘背光打开"></a>18.04 键盘背光打开</h1><p>建立led.sh文件，代码如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash - </span><br><span class="line">#===============================================================================</span><br><span class="line">#</span><br><span class="line">#          FILE: ledctrl</span><br><span class="line"># </span><br><span class="line">#         USAGE: ./ledctrl </span><br><span class="line"># </span><br><span class="line">#   DESCRIPTION: </span><br><span class="line"># </span><br><span class="line">#       OPTIONS: ---</span><br><span class="line">#  REQUIREMENTS: ---</span><br><span class="line">#          BUGS: ---</span><br><span class="line">#         NOTES: ---</span><br><span class="line">#        AUTHOR: linkscue (scue), linkscue@gmail.com</span><br><span class="line">#  ORGANIZATION: </span><br><span class="line">#       CREATED: 2014年02月13日 13时16分55秒 CST</span><br><span class="line">#      REVISION:  ---</span><br><span class="line">#===============================================================================</span><br><span class="line">​</span><br><span class="line">status=/tmp/keyboard_led_status</span><br><span class="line">if [[ $&#123;1&#125; == &quot;on&quot; ]] || [[ ! -e $&#123;status&#125; ]]; then</span><br><span class="line">    xset led named &apos;Scroll Lock&apos; &amp;&amp; echo &quot;on&quot; &gt; $&#123;status&#125;</span><br><span class="line">else</span><br><span class="line">    xset -led named &apos;Scroll Lock&apos; &amp;&amp; rm -f $&#123;status&#125;</span><br><span class="line">fi</span><br></pre></td></tr></table></figure></p>
+<p>于 /bin中新建一个led文件，将led.sh放入文件中，于键盘中添加快捷键，命令为 bash /bin/led/led.sh,设置快捷键即可。</p>
+<h1 id="caj文件阅读器的安装"><a href="#caj文件阅读器的安装" class="headerlink" title="caj文件阅读器的安装"></a>caj文件阅读器的安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg --add-architecture i386</span><br><span class="line">wget -nc https://dl.winehq.org/wine-builds/Release.key</span><br><span class="line">sudo apt-key add Release.key</span><br><span class="line">sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install --install-recommends winehq-stable</span><br><span class="line">#下载caj绿色版一般6.0可以了，运行exe文件即可。</span><br><span class="line">#设置快捷方式，命令为 wine ./XX.exe,即可。</span><br></pre></td></tr></table></figure>
+<h1 id="为知笔记的安装"><a href="#为知笔记的安装" class="headerlink" title="为知笔记的安装"></a>为知笔记的安装</h1><p>#必要软件安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install git</span><br><span class="line">sudo apt-get install build-essential</span><br><span class="line">sudo apt-get install cmake</span><br><span class="line">sudo apt-get install zlib1g-dev</span><br><span class="line">cd /home/sk</span><br><span class="line">wget http://download.qt.io/official_releases/qt/5.7/5.7.0/qt-opensource-linux-x64-5.7.0.run</span><br><span class="line">chmod +x qt-opensource-linux-x64-5.7.0.run</span><br><span class="line">./qt-opensource-linux-x64-5.7.0.run</span><br></pre></td></tr></table></figure></p>
+<p>#Clone为知笔记源代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd /home/sk</span><br><span class="line">mkdir WizTeam</span><br><span class="line">cd WizTeam</span><br><span class="line">git clone https://github.com/WizTeam/WizQTClient.git</span><br><span class="line">cd WizQTClient</span><br><span class="line">git checkout 2.4.2</span><br></pre></td></tr></table></figure></p>
+<p>#编译源代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev</span><br></pre></td></tr></table></figure></p>
+<p>#运行QT，打开./WizTeam/WizQTClient/CMakeLists.txt</p>
+<p>#运行为知笔记即可</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/11/10/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">sunkun</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#网易云音乐修复"><span class="nav-number">1.</span> <span class="nav-text">网易云音乐修复</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#终端美化"><span class="nav-number">2.</span> <span class="nav-text">终端美化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信、QQ、百度云盘等的安装"><span class="nav-number">3.</span> <span class="nav-text">微信、QQ、百度云盘等的安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#桌面美化"><span class="nav-number">4.</span> <span class="nav-text">桌面美化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Grub2美化"><span class="nav-number">5.</span> <span class="nav-text">Grub2美化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#字体修复"><span class="nav-number">6.</span> <span class="nav-text">字体修复</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#python-修复"><span class="nav-number">7.</span> <span class="nav-text">python 修复</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#部分软件安装"><span class="nav-number">8.</span> <span class="nav-text">部分软件安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ubuntu-18-04-命令行与图形界面的切换"><span class="nav-number">9.</span> <span class="nav-text">ubuntu 18.04 命令行与图形界面的切换</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#18-04-键盘背光打开"><span class="nav-number">10.</span> <span class="nav-text">18.04 键盘背光打开</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#caj文件阅读器的安装"><span class="nav-number">11.</span> <span class="nav-text">caj文件阅读器的安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#为知笔记的安装"><span class="nav-number">12.</span> <span class="nav-text">为知笔记的安装</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">sunkun</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.5.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
