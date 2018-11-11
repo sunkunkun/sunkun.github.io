@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>生信学习之路</title>
+  
+  <subtitle>路漫漫其修远兮，吾将上下而求索</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-11-11T01:24:18.268Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>sunkun</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安装教程</title>
+    <link href="http://yoursite.com/2018/11/10/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/11/10/安装教程/</id>
+    <published>2018-11-10T10:02:32.000Z</published>
+    <updated>2018-11-11T01:24:18.268Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;网易云音乐修复&quot;&gt;&lt;a href=&quot;#网易云音乐修复&quot; class=&quot;headerlink&quot; title=&quot;网易云音乐修复&quot;&gt;&lt;/a&gt;网易云音乐修复&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/11/10/hello-world/"/>
+    <id>http://yoursite.com/2018/11/10/hello-world/</id>
+    <published>2018-11-10T09:03:33.906Z</published>
+    <updated>2018-11-10T09:03:33.906Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
