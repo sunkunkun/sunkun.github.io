@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-11T01:24:18.268Z</updated>
+  <updated>2018-11-11T12:15:37.970Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,21 @@
     <link href="http://yoursite.com/2018/11/10/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
     <id>http://yoursite.com/2018/11/10/安装教程/</id>
     <published>2018-11-10T10:02:32.000Z</published>
-    <updated>2018-11-11T01:24:18.268Z</updated>
+    <updated>2018-11-11T12:15:37.970Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;网易云音乐修复&quot;&gt;&lt;a href=&quot;#网易云音乐修复&quot; class=&quot;headerlink&quot; title=&quot;网易云音乐修复&quot;&gt;&lt;/a&gt;网易云音乐修复&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
-      
+      &lt;h1 id=&quot;网易云音乐修复&quot;&gt;&lt;a href=&quot;#网易云音乐修复&quot; class=&quot;headerlink&quot; title=&quot;网易云音乐修复&quot;&gt;&lt;/a&gt;网易云音乐修复&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo gedit /etc/sudoers&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;修改/etc/sudoers文件，加一行：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;YOURNAME为你登录的用户名&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo gedit /usr/share/applications/netease-cloud-music.desktop&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;修改Exec=netease-cloud-music %U 为 Exec=sudo netease-cloud-music %U, 这样点击网易云音乐图标就是以管理员权限启动的了，且不用输入密码了。&lt;br&gt;于此同时设置root/admin等没有密码登录&lt;/p&gt;
     
     </summary>
     
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
   </entry>
   

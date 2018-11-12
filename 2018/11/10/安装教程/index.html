@@ -10,13 +10,14 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="网易云音乐修复1sudo gedit /etc/sudoers 修改/etc/sudoers文件，加一行：1YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music YOURNAME为你登录的用户名1sudo gedit /usr/share/applications/netease-cloud-music.desktop 修改Exec=netea">
+<meta name="keywords" content="Linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="安装教程">
 <meta property="og:url" content="http://yoursite.com/2018/11/10/安装教程/index.html">
 <meta property="og:site_name" content="学府">
 <meta property="og:description" content="网易云音乐修复1sudo gedit /etc/sudoers 修改/etc/sudoers文件，加一行：1YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music YOURNAME为你登录的用户名1sudo gedit /usr/share/applications/netease-cloud-music.desktop 修改Exec=netea">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-11T01:24:18.268Z">
+<meta property="og:updated_time" content="2018-11-11T12:15:37.970Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="安装教程">
 <meta name="twitter:description" content="网易云音乐修复1sudo gedit /etc/sudoers 修改/etc/sudoers文件，加一行：1YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music YOURNAME为你登录的用户名1sudo gedit /usr/share/applications/netease-cloud-music.desktop 修改Exec=netea">
@@ -107,17 +108,19 @@ daovoice('update');
 					<nav class="header-menu">
 						<ul>
 						
-							<li><a href="/ || home">home</a></li>
+							<li><a href="/">Home</a></li>
 				        
-							<li><a href="/about/ || user">about</a></li>
+							<li><a href="/archives">All</a></li>
 				        
-							<li><a href="/tags/ || tags">tags</a></li>
+							<li><a href="/about/">about</a></li>
 				        
-							<li><a href="/categories/ || th">categories</a></li>
+							<li><a href="/tags/">tags</a></li>
 				        
-							<li><a href="/archives/ || archive">archives</a></li>
+							<li><a href="/categories/">categories</a></li>
 				        
-							<li><a href="/schedule/ || calendar">schedule</a></li>
+							<li><a href="/archives/">archives</a></li>
+				        
+							<li><a href="/schedule/">schedule</a></li>
 				        
 						</ul>
 					</nav>
@@ -131,7 +134,7 @@ daovoice('update');
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						
+						<a href="/tags/Linux/" style="font-size: 10px;">Linux</a>
 					</div>
 				</section>
 				
@@ -172,17 +175,19 @@ daovoice('update');
 			<nav class="header-menu">
 				<ul>
 				
-					<li><a href="/ || home">home</a></li>
+					<li><a href="/">Home</a></li>
 		        
-					<li><a href="/about/ || user">about</a></li>
+					<li><a href="/archives">All</a></li>
 		        
-					<li><a href="/tags/ || tags">tags</a></li>
+					<li><a href="/about/">about</a></li>
 		        
-					<li><a href="/categories/ || th">categories</a></li>
+					<li><a href="/tags/">tags</a></li>
 		        
-					<li><a href="/archives/ || archive">archives</a></li>
+					<li><a href="/categories/">categories</a></li>
 		        
-					<li><a href="/schedule/ || calendar">schedule</a></li>
+					<li><a href="/archives/">archives</a></li>
+		        
+					<li><a href="/schedule/">schedule</a></li>
 		        
 		        <div class="clearfix"></div>
 				</ul>
@@ -221,7 +226,15 @@ daovoice('update');
       
       <div class="article-info article-info-post">
         
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
+	</div>
+
         
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/Linux/">Linux</a>
+	</div>
+
 
         
         <div class="clearfix"></div>
@@ -234,6 +247,7 @@ daovoice('update');
 <p>修改/etc/sudoers文件，加一行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YOURNAME ALL = NOPASSWD: /usr/bin/netease-cloud-music</span><br></pre></td></tr></table></figure></p>
 <p>YOURNAME为你登录的用户名<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /usr/share/applications/netease-cloud-music.desktop</span><br></pre></td></tr></table></figure></p>
 <p>修改Exec=netease-cloud-music %U 为 Exec=sudo netease-cloud-music %U, 这样点击网易云音乐图标就是以管理员权限启动的了，且不用输入密码了。<br>于此同时设置root/admin等没有密码登录</p>
+<a id="more"></a>
 <h1 id="终端美化"><a href="#终端美化" class="headerlink" title="终端美化"></a>终端美化</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install zsh</span><br><span class="line">sudo apt install git </span><br><span class="line">sh -c &quot;$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</span><br><span class="line">chsh -s /bin/zsh</span><br><span class="line">     echo $SHELL     #查看当前shell</span><br><span class="line">     cat /etc/shells  #查看系统已安装的shell</span><br><span class="line">git clone https://github.com/zsh-users/zsh-autosuggestions /home/.oh-my-zsh/plugins/zsh-autosuggestions</span><br><span class="line">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /home/.oh-my-zsh/plugins/home/.oh-my-zsh/plugins/zsh-syntax-highlighting</span><br><span class="line">sudo -i</span><br><span class="line">cd /home/.oh-my-zsh/plugins</span><br><span class="line">mkdir incr</span><br><span class="line">git clone http://mimosa-pudica.net/src/incr-0.2.zsh /home/.oh-my-zsh/plugins/incr</span><br><span class="line">cat /home/.zshrc</span><br><span class="line">ZSH_THEME=&quot;ys&quot;</span><br><span class="line">ENABLE_CORRECTION=&quot;true&quot;</span><br><span class="line">COMPLETION_WAITING_DOTS=&quot;true&quot;</span><br><span class="line">plugins=( git autojump incr zsh-autosuggestions zsh-syntax-highlighting )</span><br></pre></td></tr></table></figure>
 <h1 id="微信、QQ、百度云盘等的安装"><a href="#微信、QQ、百度云盘等的安装" class="headerlink" title="微信、QQ、百度云盘等的安装"></a>微信、QQ、百度云盘等的安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg --add-architecture i386</span><br><span class="line">    wget -nc https://dl.winehq.org/wine-builds/Release.key</span><br><span class="line">    sudo apt-key add Release.key</span><br><span class="line">    sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/</span><br><span class="line">    sudo apt-get update</span><br><span class="line">git clone https://github.com/wszqkzqk/deepin-wine-ubuntu.git /home</span><br></pre></td></tr></table></figure>
 <p>然后下载相应的.deb包即可<br>安装托盘：安装ToplconPlus的gnome-shell扩展</p>
